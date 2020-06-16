@@ -1,12 +1,52 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component signup form</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Component signup form</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     
+  <main class="wrapper">
+    <section class="section-text">
+      <h1 class="text-title">Learn to code by watching others</h1>
+      <p class="text-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, rerum. Possimus iste assumenda laudantium repellat dicta dolores incidunt voluptatem quae?</p>
+    </section>
+
+    <section class="section-form">
+      <a href="#" class="btn form-btn">Try it free 7 days then $20/mo. thereafter</a>
+
+      <form class="form" id="form">
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Name">
+          <span class="icon-warning fas fa-exclamation-circle"></span>
+        </div>
+
+        <div class="form-group">
+          <input type="text" name="lastname" placeholder="Last Name">
+          <span class="icon-warning fas fa-exclamation-circle"></span>
+        </div>
+
+        <div class="form-group">
+          <input type="email" name="email" placeholder="Email Address">
+          <span class="icon-warning fas fa-exclamation-circle"></span>
+        </div>
+
+        <div class="form-group">
+          <input type="password" name="password" placeholder="Password">
+          <span class="icon-warning fas fa-exclamation-circle"></span>
+        </div>
+
+        <button type="submit" class="btn">Claim your try free</button>
+        <span class="form-terms">By clicking the button, you are agreeging to our <a href="#">Terms and Services</a></span>
+      </form>
+    </section>
+  </main>
+
+  <script src="js/app.js"></script>
 </body>
 </html>
